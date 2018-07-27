@@ -112,6 +112,28 @@
 			<version>1.4.0</version>
 		</dependency>
 
+		<!--springCloud相关-->
+		<!--eureka-->
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+			<version>1.4.3.RELEASE</version>
+		</dependency>
+		<!--服务注册中心-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+			<version>1.4.3.RELEASE</version>
+		</dependency>
+		<!--服务消费者,即客户端-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
+			<version>1.4.3.RELEASE</version>
+		</dependency>
+
+
 
 
 	</dependencies>
